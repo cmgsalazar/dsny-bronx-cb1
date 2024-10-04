@@ -13,6 +13,8 @@ This repository contains Department of Sanitation (DSNY) datasets from [NYC Open
 
 ### Analysis
 
-I used `pandas` to filter by year, the sum values by complaint type. The initial version of my analysis only worked with the pandemic years (from 2020 to 2024), then I thought I might see trends if I use all the years recorded in the main dataset. 
+I used `pandas` to filter by year, the sum values by complaint type. The initial version of my analysis only worked with the pandemic years (from 2020 to 2024), then I thought I might see bigger trends if I use all the years recorded in the main dataset. 
 
-I used `def` to define functions to dynamically create new dataframes by year. To visualize, I attempted to use `seaborn` for a ridgeline plot, then decided against. The data had many `NaN` which affected the accuracy of the viz I had in mind. 
+I used `def` to define functions to dynamically create new dataframes by year. To visualize the data, I attempted to use `seaborn` for a ridgeline plot, then decided against. The data had many `NaN` which affected the accuracy of the viz I had in mind. 
+
+The spreadsheet `parsed-data/311-complaints-by-year-CLEAN.csv` is a product of manually sanitizing the data to merge duplicated complaint types, sum values if needed. Much of this work is based on editorial preference, and I thought it would be faster to do this manually than programmatically. 
