@@ -10,3 +10,9 @@ This repository contains Department of Sanitation (DSNY) datasets from [NYC Open
 * [DSNY monthly collection tonnages](https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5/about_data) *(data last updated 8 September 2024; accessed 22 September 2024)*
 * [DSNY frequency boundaries for collection operation](https://data.cityofnewyork.us/City-Government/DSNY-Frequencies/rv63-53db/about_data) *(data last updated 10 April 2024; accessed 22 September 2024)*
 * [DSNY litter basket map](https://data.cityofnewyork.us/dataset/DSNY-Litter-Basket-Map-/d6m8-cwh9) *(data last updated 10 April 2024; accessed 22 September 2024)*
+
+### Analysis
+
+I used `pandas` to filter by year, the sum values by complaint type. The initial version of my analysis only worked with the pandemic years (from 2020 to 2024), then I thought I might see trends if I use all the years recorded in the main dataset. 
+
+I used `def` to define functions to dynamically create new dataframes by year. To visualize, I attempted to use `seaborn` for a ridgeline plot, then decided against. The data had many `NaN` which affected the accuracy of the viz I had in mind. 
