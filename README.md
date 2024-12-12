@@ -2,7 +2,7 @@
 
 This repository contains Department of Sanitation (DSNY) datasets from [NYC Open Data](https://opendata.cityofnewyork.us/), which I analyzed in relation to the Melrose, Mott Haven, and Port Morris neighborhoods in the South Bronx (Bronx Community District 1).
 
-Resulting data was used in [my report for the *Mott Haven Herald*](https://motthavenherald.com/2024/10/10/bid-wants-more-cameras-in-the-hub-to-curb-illegal-dumping/).
+Resulting data was used in [my report for the *Mott Haven Herald*](https://motthavenherald.com/2024/10/10/bid-wants-more-cameras-in-the-hub-to-curb-illegal-dumping/). The story is also [republished in my portfolio](https://cmgsalazar.github.io/newmarkj/illegal-dumping/), with additional photos and previously unutilized interactive graph.
 
 
 ### Data sources
