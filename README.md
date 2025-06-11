@@ -15,8 +15,8 @@ Resulting data was used in [my report for the *Mott Haven Herald*](https://motth
 
 ### Analysis
 
-I used `pandas` to filter by year, the sum values by complaint type. The initial version of my analysis only worked with the pandemic years (from 2020 to 2024), then I thought I might see bigger trends if I use all the years recorded in the main dataset. 
+I filtered the data by year, then sum values by complaint type. The initial version of my analysis only worked with the pandemic years (from 2020 to 2024), but I thought I might see more comprehensive trends if I use all the years recorded in the main dataset. 
 
-I used `def` to define functions to dynamically create new dataframes by year. To visualize the data, I attempted to use `seaborn` for a ridgeline plot, then decided against it. The data had many `NaN` which affected the accuracy of the viz I had in mind. 
+I created functions to dynamically create new dataframes by year. To visualize the data, I attempted to use `seaborn` for a ridgeline plot, then decided against it. The data had many `NaN` which affected the accuracy of the viz I had in mind. 
 
-The spreadsheet `parsed-data/311-complaints-by-year-CLEAN.csv` is a product of manually sanitizing the data to merge duplicated complaint types, sum values if needed. Much of this work is based on editorial preference, and I thought it would be faster to do this manually than programmatically. 
+The spreadsheet `parsed-data/311-complaints-by-year-CLEAN.csv` is a product of manually sanitizing the data to merge complaint type duplicates and sum values if needed. Much of this work is based on editorial preference, and I thought it would be faster to do this manually than fuzzy-match programmatically. 
